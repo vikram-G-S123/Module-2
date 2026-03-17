@@ -24,17 +24,29 @@ To write a Python program to check the relation between two numbers — whether 
 ### PROGRAM
 
 ```
+# Reg.No: 212222060296
+# Name: Vikram G S
+
+x = int(input("Enter first number: "))
+y = int(input("Enter second number: "))
+
+maximum = lambda a, b: a if a > b else b
+
+print("Maximum:", maximum(x, y))
 
 ```
 
 ### OUTPUT
 
 ```
+Enter first number: 10
+Enter second number: 20
+Maximum: 20
 
 ```
 
 ### RESULT
-
+Thus, all the programs were executed successfully and verified.
 ```
 
 ```
