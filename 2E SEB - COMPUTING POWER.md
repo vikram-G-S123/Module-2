@@ -22,7 +22,23 @@ To write a Python program to compute the power of a given number using an approp
 ### PROGRAM
 
 ```
+# Reg.No: 212222060296
+# Name: Vikram G S
+
+base = int(input("Enter base: "))
+exp = int(input("Enter exponent: "))
+
+result = base ** exp
+
+print("Power:", result)
+
 ```
 ### OUTPUT
 
+Enter base: 2
+Enter exponent: 3
+Power: 8
+
 ### RESULT
+
+Thus, all the programs were executed successfully and verified.
